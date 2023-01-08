@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>foumulario de Salon de Bellaza</title>
+        <link rel="stylesheet" href="boton.css">
+        <style>
+            body{font-family: Ariel; background-color: blueviolet; box-sizing: border-box;}
+            
+            form{
+                background-color: white;
+                border-radius: 3px;
+                padding: 20px;
+                margin: 0 auto;
+                width: 300px;
+            }
+
+            input, textarea{
+                border: 0;
+                outline: none;
+                width: 280px;
+            }
+
+            .field{
+                border: solid 1px #999;
+                padding: 10px;
+            
+        
+            }
+
+            .field:focus{
+                border-color: blueviolet;
+            }
+
+            .center-content{
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center><h1>foumulario de Salon de Bellaza</h1></center>
+
+        <form action="">
+            <p>Nombre:</p>
+            <input type="text" class="field"><br>
+
+            <p>Correo electrónico:</p>
+            <input type="text" class="field"><br>
+
+            <p>Asunto:</p>
+            <input type="text" class="field"><br>
+
+            <p>Mensaje:</p>
+            <input type="text" class="field"><br>
+
+            <p class="center-content">
+                <input type="submit" class="btn btn-green" value="Enviar Datos">
+            </p>
+        </form>
+    </body>
+</html>
